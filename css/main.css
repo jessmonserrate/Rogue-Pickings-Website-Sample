@@ -1,0 +1,123 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 20px 35px 20px 35px;
+    overflow: auto;
+    width: 1250px;
+}
+
+.half-width {
+    float: left;
+    width: 625px;
+}
+
+.third-width {
+    float:left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+#header h1 { 
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    
+#header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+}
+    
+nav ul li{
+    display: inline-block;
+}
+    
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** HERO *****/
+
+#hero {    
+    background: url("../img/hero-image.png");
+    background-position: center;
+    background-size: cover;
+    height: 290px;
+    margin: 20px;
+    width: 1270px;
+}
+
+/***** WELCOME *****/
+
+#welcome h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#welcome p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/***** ABOUT US *****/
+
+#about .third-width {
+    border: 1px solid #dedbdc;
+    padding: 20px auto;
+    width: 399px;
+}
+
+#about h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 20px;
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 20px 20px;
+}
+
+#about a {
+    color: #77a466;
+    text-align: left;
+    text-decoration: none;
+}
+
+/***** FOOTER *****/
+
+#footer {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#footer h3 span {
+    color: #77a466;
+    font-family: 'Galada', sans-serif;
+    text-transform: lowercase;
+}
